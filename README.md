@@ -1,5 +1,7 @@
 # zizifn-edgetunnel
 这是一个可以使用的edgetunnel.
+
 我是把“vless”替换成“vijan”
 
-谢谢zizifn
+PROXYIP:ts.hpc.tw
+UUID:d342d98e-d476-4583-b36e-524ab1f0afa4
