@@ -1,4 +1,6 @@
 # zizifn-edgetunnel
+中文 | [English](README-ENG.md)
+
 这是一个可以使用的edgetunnel.
 
 我是把“vless”替换成“vijan”
