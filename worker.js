@@ -6,7 +6,7 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = 'd342d98e-d476-4583-b36e-524ab1f0afa4';
 
-let proxyIP = 'ts.hpc.tw';
+let proxyIP = 'ts.hpc.tw'; // workers.cloudflare.cyou bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org
 
 
 if (!isValidUUID(userID)) {
@@ -603,9 +603,8 @@ function getvljanConfig(userID, hostName) {
 	const protocol = "vljan";
 	const vljanMain = 
 	`${protocol}` + 
-	`://${userID}@${hostName}:443`+
+  `://${userID}@104.18.0.0:8443`+
 	`?encryption=none&security=tls&sni=${hostName}&fp=randomized&type=ws&host=${hostName}&path=%2F%3Fed%3D2048#${hostName}`;
-	
 	return `
 ---------------------------------------------------------------
 ${vljanMain}
